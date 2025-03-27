@@ -1,9 +1,17 @@
+:root {
+    --background-color: #111;
+    --text-color: #29ff3d;
+    --box-color: #222;
+}
+
 body {
-    font-family: sans-serif;
+    font-family: courier new;
     margin: 0;
     padding: 0;
-    background-color: #121212; /* Dunkler Hintergrund */
-    color: #e0e0e0; /* Helle Textfarbe */
+    background-color: var(--background-color);
+    /* Dunkler Hintergrund */
+    color: var(--text-color);
+    /* Helle Textfarbe */
 }
 
 .container {
@@ -13,21 +21,13 @@ body {
     padding: 20px;
 }
 
-.kachel {
-    background-color: #1e1e1e; /* Dunklere Kachel-Hintergrundfarbe */
+.box {
+    background-color: var(--box-color);
+    /* Dunklere Kachel-Hintergrundfarbe */
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1); /* Helle Schattenfarbe */
     margin: 10px;
     padding: 20px;
-    width: 200px;
+    width: 300px;
+    height: 300px;
     text-align: center;
-}
-
-.kachel a {
-    color: #bb86fc; /* Akzentfarbe für Links */
-    text-decoration: none;
-}
-
-.kachel a:hover {
-    text-decoration: underline;
 }
