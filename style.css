@@ -1,0 +1,33 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Dunkler Hintergrund */
+    color: #e0e0e0; /* Helle Textfarbe */
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.kachel {
+    background-color: #1e1e1e; /* Dunklere Kachel-Hintergrundfarbe */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1); /* Helle Schattenfarbe */
+    margin: 10px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+}
+
+.kachel a {
+    color: #bb86fc; /* Akzentfarbe für Links */
+    text-decoration: none;
+}
+
+.kachel a:hover {
+    text-decoration: underline;
+}
